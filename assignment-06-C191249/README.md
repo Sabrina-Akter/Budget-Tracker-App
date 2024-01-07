@@ -1,3 +1,4 @@
+### Assignment-06 completed by C191249 Sabrina Akter
 ### Create a table with a interget PK.
 
 ```sql
