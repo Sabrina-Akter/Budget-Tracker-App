@@ -1,16 +1,15 @@
-## Final Assignment
+## Final Assignment by C191249 Sabrina Akter
 
-The files in this folder serve as the starting point for Final Assignment. Please review the instructions and use these materials to begin your assignment.
+## Tasks have been completed
 
-## Submission Guidelines
+### Front-end:
+1. Add Category dropdown option in Transaction Entry row
+2. Add Category Column in Income/Expense List
+     
+![Alt text](images/frontend.PNG)
 
-- Create a repository on your Github named `final-assignment`
-- Copy the files of this folder and write your solution on top of it.
-- Create a entry on the Google Sheet with the github repo link.
+### Back-end:
+3. Use API endpoints to fetch data and store data
+4. API should use the database to store all visible data on the page
 
-## Deliverables
-
-- Add Category dropdown option in Transaction Entry row
-![Alt text](image.png)
-- Add Category Column in Income/Expense List
-![Alt text](image-1.png)
+![Alt text](images/backend.PNG)
