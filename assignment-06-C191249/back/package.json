@@ -1,0 +1,28 @@
+{
+  "name": "class5-express-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "pg": "^8.11.3",
+    "pg-promise": "^11.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "description": "```sql CREATE TABLE entries (     id SERIAL PRIMARY KEY NOT NULL,     title VARCHAR(255) NOT NULL,     type VARCHAR(255) NOT NULL,     category VARCHAR(255) NOT NULL,     value FLOAT NOT NULL,     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL ); ```",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
